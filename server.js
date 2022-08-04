@@ -27,7 +27,7 @@ mongoose.connect(process.env.MONGO_URI)
         console.log('connected to db')
         
     })
-app.get('/', (req, res) => { res.send('Hello from Express!')
+
 
 //listen for requests
 app.listen(process.env.PORT||3000,() =>{
